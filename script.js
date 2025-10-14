@@ -1757,7 +1757,7 @@ function toggleRepeat() {
 function seekTo(e) {
     if (!currentSong || isNaN(audioPlayer.duration) || audioPlayer.duration === 0) return;
 
-    const rect = e.target.getBoundingClientRect();
+    const rect = e.currentTarget.getBoundingClientRect();
     const percent = (e.clientX - rect.left) / rect.width;
     const currentTime = percent * audioPlayer.duration;
 
