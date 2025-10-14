@@ -1755,7 +1755,7 @@ function toggleRepeat() {
 
 // Seek to position
 function seekTo(e) {
-    if (!currentSong) return;
+    if (!currentSong || isNaN(audioPlayer.duration) || audioPlayer.duration === 0) return;
 
     const rect = e.target.getBoundingClientRect();
     const percent = (e.clientX - rect.left) / rect.width;
@@ -1822,16 +1822,27 @@ function toggleMute() {
 
 // Update progress
 function updateProgress() {
-    if (!currentSong) return;
+    // Ensure audio player and song are valid
+    if (!audioPlayer || !currentSong) return;
 
-    const percent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+    const duration = audioPlayer.duration;
+    const currentTime = audioPlayer.currentTime;
 
-    // Update both progress bars
+    // Check if duration is valid
+    if (!duration || isNaN(duration) || duration === 0) return;
+
+    // Calculate progress percentage
+    const percent = (currentTime / duration) * 100;
+
+    // Safely update progress bars
     if (progress) progress.style.width = `${percent}%`;
     if (progressHome) progressHome.style.width = `${percent}%`;
-    if (currentTimeEl) currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
-    if (currentTimeHome) currentTimeHome.textContent = formatTime(audioPlayer.currentTime);
+
+    // Safely update time displays
+    if (currentTimeEl) currentTimeEl.textContent = formatTime(currentTime);
+    if (currentTimeHome) currentTimeHome.textContent = formatTime(currentTime);
 }
+
 
 // Update duration
 function updateDuration() {
