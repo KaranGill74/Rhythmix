@@ -695,6 +695,146 @@ const songsData = {
         image: "img/phonk/1.jpg", 
         src: "audio/phonksong/1.mp3" 
     },
+    { 
+        id: 99, 
+        title: "Experience", 
+        artist: " Noel.smt", 
+        image: "img/phonk/2.webp", 
+        src: "audio/phonksong/2.mp3" 
+    },
+    { 
+        id: 100, 
+        title: "7weeks & 3 Days", 
+        artist: " Luigi version", 
+        image: "img/phonk/3.jpg", 
+        src: "audio/phonksong/3.mp3" 
+    },
+    { 
+        id: 101, 
+        title: "Kerosene", 
+        artist: "  Crystal Castles", 
+        image: "img/phonk/4.jpg", 
+        src: "audio/phonksong/4.mp3" 
+    },
+    { 
+        id: 102, 
+        title: " Death Is No More", 
+        artist: "  BLESSED MANE", 
+        image: "img/phonk/5.jpg", 
+        src: "audio/phonksong/5.mp3" 
+    },
+    { 
+        id: 103, 
+        title: "BONKERS", 
+        artist: "MonkeyTaio", 
+        image: "img/phonk/6.jpg", 
+        src: "audio/phonksong/6.mp3" 
+    },
+    { 
+        id: 104, 
+        title: "Solitude", 
+        artist: "Fatih", 
+        image: "img/phonk/7.jpg", 
+        src: "audio/phonksong/7.mp3" 
+    },
+    { 
+        id: 105, 
+        title: "Fluxxwave", 
+        artist: "Clovis Reyes", 
+        image: "img/phonk/8.jpg", 
+        src: "audio/phonksong/8.mp3" 
+    },
+    { 
+        id: 106, 
+        title: "Mask Off", 
+        artist: "Future", 
+        image: "img/phonk/9.jpg", 
+        src: "audio/phonksong/9.mp3" 
+    },
+    { 
+        id: 107, 
+        title: "HomeTown Hero", 
+        artist: " Not Affiliated", 
+        image: "img/phonk/10.jpg", 
+        src: "audio/phonksong/10.mp3" 
+    },
+    { 
+        id: 108, 
+        title: "I was Only Tamporary", 
+        artist: " Not Affiliated", 
+        image: "img/phonk/11.jpg", 
+        src: "audio/phonksong/11.mp3" 
+    },
+    { 
+        id: 109, 
+        title: " FUNK UNIVERSO", 
+        artist: " Irokz", 
+        image: "img/phonk/12.jpg", 
+        src: "audio/phonksong/12.mp3" 
+    },
+    { 
+        id: 110, 
+        title: " Bloody Mary ", 
+        artist: " Lady Gaga", 
+        image: "img/phonk/13.jpg", 
+        src: "audio/phonksong/13.mp3" 
+    },
+    { 
+        id: 111, 
+        title: "Lovely Bastards", 
+        artist: "ZWE1HVNDXR, yatashigang; ", 
+        image: "img/phonk/14.jpeg", 
+        src: "audio/phonksong/14.mp3" 
+    },
+    { 
+        id: 112, 
+        title: "Metamorphoss", 
+        artist: "InterWorld", 
+        image: "img/phonk/15.jpg", 
+        src: "audio/phonksong/15.mp3" 
+    },
+    { 
+        id: 113, 
+        title: "Ethereal", 
+        artist: "Mikeeymind", 
+        image: "img/phonk/16.jpg", 
+        src: "audio/phonksong/16.mp3" 
+    },
+    { 
+        id: 114, 
+        title: "Fainted", 
+        artist: "Narvent", 
+        image: "img/phonk/17.jpg", 
+        src: "audio/phonksong/17.mp3" 
+    },
+    { 
+        id: 115, 
+        title: "Your Love Is My Drug", 
+        artist: "Kesha", 
+        image: "img/phonk/18.jpg", 
+        src: "audio/phonksong/18.mp3" 
+    },
+    { 
+        id: 116, 
+        title: "Cancel", 
+        artist: "Redchinawave", 
+        image: "img/phonk/19.jpg", 
+        src: "audio/phonksong/19.mp3" 
+    },
+    { 
+        id: 117, 
+        title: "Slide da Treme", 
+        artist: "Dj Fnk", 
+        image: "img/phonk/20.jpg", 
+        src: "audio/phonksong/20.mp3" 
+    },
+    { 
+        id: 118, 
+        title: "X-Tali", 
+        artist: "Mxccree", 
+        image: "img/phonk/21.jpg", 
+        src: "audio/phonksong/21.mp3" 
+    },
         
     ]
 };
