@@ -877,6 +877,34 @@ const songsData = {
         image: "img/phonk/27.webp", 
         src: "audio/phonksong/27.mp3" 
     },
+    { 
+        id: 125, 
+        title: "Kids ", 
+        artist: "kyle dixon", 
+        image: "img/phonk/28.jpg", 
+        src: "audio/phonksong/28.mp3" 
+    },
+    { 
+        id: 126, 
+        title: "Dare", 
+        artist: "Sayfalse", 
+        image: "img/phonk/29.jpg", 
+        src: "audio/phonksong/29.mp3" 
+    },
+    { 
+        id: 127, 
+        title: "DEATH RATTLE", 
+        artist: "Miguel Angeles", 
+        image: "img/phonk/30.jpg", 
+        src: "audio/phonksong/30.mp3" 
+    },
+    { 
+        id: 128, 
+        title: "Flight ", 
+        artist: "All Eyez", 
+        image: "img/phonk/31.jfif", 
+        src: "audio/phonksong/31.mp3" 
+    },
         
     ]
 };
