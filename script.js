@@ -842,6 +842,41 @@ const songsData = {
         image: "img/phonk/22.jpg", 
         src: "audio/phonksong/22.mp3" 
     },
+    { 
+        id: 120, 
+        title: "Roi", 
+        artist: "Luke Music", 
+        image: "img/phonk/23.jpg", 
+        src: "audio/phonksong/23.mp3" 
+    },
+    { 
+        id: 121, 
+        title: "Empathy", 
+        artist: "Crystal Castles", 
+        image: "img/phonk/24.jpg", 
+        src: "audio/phonksong/24.mp3" 
+    },
+    { 
+        id: 122, 
+        title: "Acido", 
+        artist: "UdieNnx", 
+        image: "img/phonk/25.jpg", 
+        src: "audio/phonksong/25.mp3" 
+    },
+    { 
+        id: 123, 
+        title: "After Dark", 
+        artist: "Mr.kitty", 
+        image: "img/phonk/26.jpg", 
+        src: "audio/phonksong/26.mp3" 
+    },
+    { 
+        id: 124, 
+        title: "Gta 4", 
+        artist: "Rockstar", 
+        image: "img/phonk/27.webp", 
+        src: "audio/phonksong/27.mp3" 
+    },
         
     ]
 };
