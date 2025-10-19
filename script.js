@@ -337,9 +337,6 @@ const songsData = {
             image: "img/48.jpg",
             src: "audio/48.mp3"
         },
-
-    ],
-    other: [
         {
             id: 49,
             title: "Fight",
@@ -347,6 +344,9 @@ const songsData = {
             image: "img/otherimage/49.webp",
             src: "audio/othersong/49.mp3"
         },
+
+    ],
+    other: [
         {
             id: 50,
             title: "Dildarian",
@@ -682,6 +682,13 @@ const songsData = {
             artist: "Dilraj Dhillon",
             src: "audio/othersong/97.mp3",
             image: "img/otherimage/97.jpg"
+        },
+        {
+            id: 129,
+            title: "Attach ",
+            artist: "Sidhu Moose Wala",
+            src: "audio/othersong/98.mp3",
+            image: "img/otherimage/98.webp"
         },
 
 
