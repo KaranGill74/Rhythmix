@@ -344,10 +344,7 @@ const songsData = {
             image: "img/otherimage/49.webp",
             src: "audio/othersong/49.mp3"
         },
-
-    ],
-    other: [
-        {
+          {
             id: 50,
             title: "Dildarian",
             artist: "Aminder Gill",
@@ -368,6 +365,10 @@ const songsData = {
             image: "img/otherimage/52.webp",
             src: "audio/othersong/52.mp3"
         },
+
+    ],
+    other: [
+      
         {
             id: 53,
             title: "Changa Mada Time",
@@ -689,6 +690,27 @@ const songsData = {
             artist: "Sidhu Moose Wala",
             src: "audio/othersong/98.mp3",
             image: "img/otherimage/98.webp"
+        },
+        {
+            id: 130,
+            title: "Sajjan Raazi",
+            artist: "Satinder Sartaaj",
+            src: "audio/othersong/99.mp3",
+            image: "img/otherimage/99.png"
+        },
+        {
+            id: 131,
+            title: "Enne Hee Saah Chahide",
+            artist: "Kaler Kanth",
+            src: "audio/othersong/100.mp3",
+            image: "img/otherimage/100.jpg"
+        },
+        {
+            id: 132,
+            title: "Udaarian",
+            artist: "Satinder Sartaaj",
+            src: "audio/othersong/101.mp3",
+            image: "img/otherimage/101.jpg"
         },
 
 
